@@ -31,7 +31,7 @@ app.use(cors(corsOptions));
 app.use(cookieParser());
 
 app.use(express.json());
-dotenv.config({ path: './config.env' })
+dotenv.config({ path: './.env' })
 
 
 //Database of Mongoose
